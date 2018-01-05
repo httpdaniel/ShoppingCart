@@ -2,7 +2,6 @@ import java.util.ArrayList;
 
 public class Order
 {
-    // instance variables - replace the example below with your own
     private double orderTotal;
     private final long orderId;
     private final Customer customer;
@@ -12,12 +11,8 @@ public class Order
     private Payment payment;
     private Email email;
 
-    /**
-     * Constructor for objects of class Order
-     */
     public Order(ShoppingCart cart)
     {
-        // initialise instance variables
         orderId = makeOrderId();
         customer = cart.getCustomer();
         
