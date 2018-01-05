@@ -1,21 +1,10 @@
-
-/**
- * TransactionTest is a class that does one thing only
- * It provides methods for testing out different test scenarios 
- * for our Shopping Cart Transaction classes
- * @author Conor Hayes
- * @version 28 September 2017
- */
 public class TransactionTest
 {
     
-    /**
-     * main method to execute the TransactionTest methods
-     */
     public static void main(String[] args)
     {
        TransactionTest test = new TransactionTest();
-       test.transaction2(); // calls the method with our test scenario
+       test.transaction2();
     }
     
     public void transaction1(){  
