@@ -2,7 +2,6 @@ import java.util.ArrayList;
 
 public class ShoppingCart
 {
-    // instance variables - replace the example below with your own
     private final long cartId;
     private String timeStamp;
     private ArrayList<Item> items;
@@ -12,7 +11,6 @@ public class ShoppingCart
     
     public ShoppingCart(Customer customer)
     {
-        // initialise instance variables
         this.customer = customer;
         items = new ArrayList<Item>();
         cartId = makeCartId();
