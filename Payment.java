@@ -1,6 +1,5 @@
 public class Payment
 {
-    // instance variables - replace the example below with your own
     private Customer customer;
     private Address billingAddress;
     private int cardNumber;
@@ -8,12 +7,8 @@ public class Payment
     private String cardType;
     private boolean valid;
 
-    /**
-     * Constructor for objects of class Payment
-     */
     public Payment(Customer customer, Address billingAddress, String cardType, int cardNumber, String date)
     {
-        // initialise instance variables
         this.customer = customer;
         this.billingAddress = billingAddress;
         this.cardType = cardType;
