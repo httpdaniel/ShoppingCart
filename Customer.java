@@ -1,5 +1,3 @@
- 
-
 public class Customer {
     private String firstName;
     private String surName;
