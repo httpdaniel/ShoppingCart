@@ -1,14 +1,10 @@
 public class Email
 {
-    // instance variables - replace the example below with your own
     private String email;
     private Customer customer;
     private Order order;
     private Address address;
 
-    /**
-     * Constructor for objects of class Email
-     */
     public Email(Customer customer, Order order, Address address)
     {
         this.customer = customer;
